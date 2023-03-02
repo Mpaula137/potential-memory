@@ -46,26 +46,7 @@ y: entero
 
 [INICIO]
 Si (n ∈ R ) entonces
-1. Separar n en grupos de 2 dígitos
-    si el n es impar agregar 0 al inicio de n
-2.Buscar el mayor número cuyo cuadrado sea menor o igual al primer grupo de dos cifras
-a = entero(raiz_cuadrada(groups[1]))
-proceso = groups[1] - a**2
-resultado = [a]
-3.Repetir el proceso cuando hay 2 grupos o el resultado de la diferencia no es 0 y asi hallar decimales 
- proceso = proceso*100 + groups[i]
-    x = 0
-    y = 2*resultado[-1]
-    mientras:
-        si (y+x)**2 <= proceso:
-            x += 1
-        sino:
-            y -= 1
-        si x > y:
-            romper
-    resultado.append(x-1)
-    proceso= proceso - (x-1)**2
-    Escribir raiz cuadrada con aproximacion de 2 decimales
+1
     
     [FIN]
     
