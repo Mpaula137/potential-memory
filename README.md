@@ -40,15 +40,23 @@ Para lograr esto necesite un pseudocodigo y este fue el que logre realizar:
 [variables]
 i :entero
 n: entero
-a: entero
-x: entero
-y: entero
+b: entero
 
 [INICIO]
 Si (n ∈ R ) entonces
-1
-    
-    [FIN]
+ 
+ 1. Agrupamos a n en pares y si es impar agregamos un o al principio de la raiz
+ 2. Buscamos un numero cuyo cuadrado se aproxime al primer par
+  b= netero ( raiz cuadrada (Grupo[1])
+   res= Grupo[1] - b**2
+   resultado = [a]
+ 3. repetimos este proceso hasta que no hallan pares y que el resultado de la diferencia de 0
+ si e4s el caso contrario sacamos decimales
+   res= res*100 + grupos[1]
+   4. si no es cero escribimos una coma y bajamos un par de ceros para continuar 
+   5. trataremos de encontrar asi sea minimo 3 decimales despues
+   
+         [FIN]
     
  ```
 
